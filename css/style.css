@@ -75,10 +75,15 @@ header .menu-toggle {
 	width: 180px;
 }
 
+#dropdown:hover ul {
+	display: block;
+}
+
 #nav-dropdown {
 	position: absolute;
 	top: 66px;
 	right: 0px;
+	display: none;
 }
 
 #nav-dropdown li {
